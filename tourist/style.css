@@ -181,6 +181,31 @@ p{
     margin-top: 40px;
 }
 
+/* Tours */
+.tours .content-col{
+    width: 40%;
+}
+
+.content-col h1{
+    font-size: 4vmin;
+    color: #484872;
+}
+
+.tours .image-col{
+    width: 60%;
+}
+.tours .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-gallery img{
+    width: 300px !important;
+    margin: 10px;
+}
+
 @media screen and (max-width : 700px) {
     .menu-btn{
         display: block;
